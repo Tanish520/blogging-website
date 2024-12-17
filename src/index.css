@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css or your main CSS file */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  body.dark {
+    background-color: #1a202c; /* Dark background */
+    color: white; /* Light text */
+  }
+  
